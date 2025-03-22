@@ -1,6 +1,6 @@
 {
   "name": "detect-overflow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect if any element is causing the document to overflow the viewport",
   "prettier": "@schlaus/prettier-config",
   "type": "module",
