@@ -1,0 +1,43 @@
+{
+  "name": "detect-overflow",
+  "version": "1.0.0",
+  "description": "Detect if any element is causing the document to overflow the viewport",
+  "prettier": "@schlaus/prettier-config",
+  "type": "module",
+  "exports": {
+    ".": "./src/auto.js",
+    "./core": "./src/core.js"
+  },
+  "unpkg": "dist/detect-overflow.umd.js",
+  "jsdelivr": "dist/detect-overflow.umd.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schlaus/detect-overflow.git"
+  },
+  "sideEffects": true,
+  "keywords": [
+    "overflow",
+    "scroll",
+    "debug",
+    "dom",
+    "layout"
+  ],
+  "author": {
+    "name": "Klaus Karkia",
+    "email": "klaus.karkia@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schlaus/detect-overflow/issues"
+  },
+  "homepage": "https://github.com/schlaus/detect-overflow#readme",
+  "devDependencies": {
+    "@schlaus/prettier-config": "^1.0.1",
+    "prettier": "^3.5.3",
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
